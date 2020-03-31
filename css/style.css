@@ -112,8 +112,7 @@ a {
 	height: 53px;
 	width: 173px;
 	font-size: 14px;
-	
-	/*background-color: #998675;*/
+	background-color: #998675;
 	color: white;
 	text-align: center;
 	margin-top: 50px;
@@ -682,14 +681,16 @@ a {
 @media screen and (max-width: 576px) {
 	.container {
 		width: 100%;
-		overflow-x: hidden;	
-		margin-left: ;	
+		overflow-x: hidden;		
 	}
 	.section {
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
-/*menu-nav*/	
+/*menu-nav*/
+	.menu-nav {
+		margin-top: 0 !important;
+	}	
 	.navigat {
 		font-size: 20px;
 	}
@@ -726,14 +727,15 @@ a {
 		margin-bottom: -20px;
 	}
 /*Our Latest Projects.*/
-	.project {
+	/*.project {
 		padding-left: 3px;
-	}
+	}*/
 	.menu-latest {
 		margin-top: 5px;
+		margin-right: auto !important;
 	}
 	.btns-blog {
-	margin-left: 85px;
+	margin-left: 100px;
 }
 /*Multipurpose WordPress Theme*/
 	.fon-word {
@@ -783,7 +785,13 @@ a {
 	}
 }
 @media screen and (max-width: 768px) {	
-/*menu*/
+	/*menu-nav*/
+	.menu-nav {
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		margin-right: 0 !important;
+		max-width: 768px;
+	}
 	.navbar {
 		background-color: rgba(0,0,0,0.5);
 		text-align: center;
@@ -835,10 +843,6 @@ a {
 		height: 100%;
 		padding-bottom: 60px;
 	}	
-/*Our Latest Projects.*/
-	.latest-otstup {
-		margin-left: 0;
-	}
 /*content*/
 	.content {
 		height: 100%;
