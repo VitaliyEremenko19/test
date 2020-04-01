@@ -681,7 +681,7 @@ a {
 @media screen and (max-width: 576px) {
 	.container {
 		width: 100%;
-		overflow-x: hidden;		
+		overflow-x: hidden;	
 	}
 	.section {
 		padding-top: 40px;
@@ -729,14 +729,15 @@ a {
 /*Our Latest Projects.*/
 	.project {
 		margin-left: 0 !important;
+		padding-left: 0 !important;
 	}
 	.menu-latest {
 		margin-top: 5px;
 		margin-right: auto !important;
 	}
 	.btns-blog {
-	margin-left: 100px;
-}
+		margin-left: 100px;
+	}
 /*Multipurpose WordPress Theme*/
 	.fon-word {
 		height: 100%;
@@ -765,7 +766,7 @@ a {
 		margin-top: 50px !important;
 	}
 	.project-recent {
-		padding-left: 0;
+		padding-left: 0 !important;
 	}
 /*logos*/
 	.logos {
