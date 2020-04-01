@@ -727,9 +727,9 @@ a {
 		margin-bottom: -20px;
 	}
 /*Our Latest Projects.*/
-	/*.project {
-		padding-left: 3px;
-	}*/
+	.project {
+		margin-left: 0 !important;
+	}
 	.menu-latest {
 		margin-top: 5px;
 		margin-right: auto !important;
@@ -763,6 +763,9 @@ a {
 /*Recent Posts.*/
 	.recent-otstup {
 		margin-top: 50px !important;
+	}
+	.project-recent {
+		padding-left: 0;
 	}
 /*logos*/
 	.logos {
